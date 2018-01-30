@@ -39,19 +39,3 @@ passport.use(
             });
     })
 );
-
-
-// Facebook OAuth Strategy
-passport.use(
-    new FacebookStrategy({
-        clientID: keys.facebookClientID,
-        clientSecret: keys.facebookClientSecret,
-        callbackURL: '/auth/facebook/callback',
-        profileFields: ['displayName', 'email']
-    },
-    (accessToken, refreshToken, profile, done) => {
-        console.log(accessToken);
-        console.log(refreshToken);
-        console.log(profile);       
-    })
-);

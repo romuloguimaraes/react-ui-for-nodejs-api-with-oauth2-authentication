@@ -2,7 +2,7 @@ const express = require('express'),
       mongoose = require('mongoose'),
       cookieSession = require('cookie-session'),
       passport = require('passport'),
-      keys = require('./config/keys');
+      keys = require('./config/keys'),
       PORT = process.env.PORT || 5000,
       app = express();
 

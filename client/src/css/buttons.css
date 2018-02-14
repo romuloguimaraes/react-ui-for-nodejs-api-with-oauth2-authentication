@@ -1,0 +1,22 @@
+.btn-logout{
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.btn-google-login{
+    font-weight: bold;
+    letter-spacing: 0;
+    padding-top: 0.15em;
+    padding-left: 2.35em !important;
+    padding-right: 0.6em !important;
+    background-image: url('./img/google.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 5px;
+    background-position-y: 6px;
+}
+
+/* Materialize classes */
+.btn.blue.accent-3:hover{
+    background-color: #448aff !important;
+}

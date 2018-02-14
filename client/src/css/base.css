@@ -1,0 +1,13 @@
+html {
+    background-color: #F2F5F9;
+}
+
+.container{
+    background-color: #FFF !important;
+    width: 95% !important;    
+}
+
+.wrapper {
+    padding: 0 1em;
+}
+
